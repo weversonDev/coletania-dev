@@ -1,0 +1,35 @@
+{
+  "name": "projeto-galeria",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "cross-env NODE_ENV=production webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap": "5.3.1",
+    "copy-webpack-plugin": "11.0.0",
+    "cross-env": "7.0.3",
+    "css-loader": "6.8.1",
+    "css-minimizer-webpack-plugin": "5.0.1",
+    "font-awesome": "4.7.0",
+    "jquery": "3.7.0",
+    "mini-css-extract-plugin": "2.7.6",
+    "node-sass": "9.0.0",
+    "postcss-loader": "7.3.3",
+    "sass-loader": "13.3.2",
+    "source-map-loader": "^4.0.1",
+    "style-loader": "3.3.3",
+    "terser-webpack-plugin": "5.3.9",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.8"
+  }
+}
